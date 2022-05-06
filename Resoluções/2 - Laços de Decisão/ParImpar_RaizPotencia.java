@@ -2,6 +2,9 @@ package resolucoes;
 
 import java.util.Scanner;
 
+/* FaÃ§a um programa em que permita a entrada de um nÃºmero qualquer e exiba se este nÃºmero Ã© par ou Ã­mpar.
+   Se for par exiba tambÃ©m a raiz quadrada do mesmo. Se for Ã­mpar exiba o nÃºmero elevado ao quadrado. */
+
 public class ParImpar_RaizPotencia {
 
 	public static void main(String[] args) {
@@ -10,17 +13,15 @@ public class ParImpar_RaizPotencia {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Digite um número: ");
+		System.out.println("Digite um nÃºmero: ");
 		number = input.nextDouble();
 		if(number % 2 == 0) {
 			double raiz = Math.sqrt(number);
-			System.out.println("\n\nO número é par e sua raiz quadrada é " + raiz);
+			System.out.println("\n\nO nÃºmero Ã© par e sua raiz quadrada Ã© " + raiz);
 		}
 		else {
 			double potencia = Math.pow(number, 2);
-			System.out.println("\n\nO número é ímpar e sua potência ao quadrado é " + potencia);
+			System.out.println("\n\nO nÃºmero Ã© Ã­mpar e sua potÃªncia ao quadrado Ã© " + potencia);
 		}
-
 	}
-
 }
