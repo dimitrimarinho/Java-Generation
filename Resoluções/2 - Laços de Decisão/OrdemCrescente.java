@@ -4,40 +4,39 @@ import java.util.Scanner;
 
 public class OrdemCrescente {
 	
-	/* Faça um programa que entre com três números e coloque em ordem crescente. */
+	/* FaÃ§a um programa que entre com trÃªs nÃºmeros e coloque em ordem crescente. */
 
 	public static void main(String[] args) {
 		
 		double[] vetorOrdenacao = new double[3];
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
-		
-		
+				
 		for(int i = 0; i < 3; i++) {
-			System.out.println("Digite o " + (i+1) + "º número: ");
+			System.out.println("Digite o " + (i+1) + "Âº nÃºmero: ");
 			vetorOrdenacao[i] = input.nextDouble();
 		}
 		
 		Arrays.sort(vetorOrdenacao);
 		
-		System.out.println("\n\nA ordem crescente é: ");
+		System.out.println("\n\nA ordem crescente Ã©: ");
 		for(int i = 0; i < 3; i++) {
 			System.out.print(vetorOrdenacao[i] + " ");
 		}
 			System.out.println();	
 			
-		/* Somente com laço de decisão é possível fazer da seguinte forma: 
+		/* Somente com laÃ§o de decisÃ£o Ã© possÃ­vel fazer da seguinte forma: 
 		 
 		double n1, n2, n3;
 		double[] ordena = new double[3];
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		n1 = input.nextDouble();	
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		n2 = input.nextDouble();	
-		System.out.println("Digite o terceiro número: ");
+		System.out.println("Digite o terceiro nÃºmero: ");
 		n3 = input.nextDouble();
 		
 		ordena[0] = n1;
@@ -65,7 +64,7 @@ public class OrdemCrescente {
 			ordena[1] = n1;
 		}
 		
-		System.out.println("\n\nA ordem crescente é: ");
+		System.out.println("\n\nA ordem crescente Ã©: ");
 		System.out.print(ordena[0] + " " + ordena[1] + " " + ordena[2]);
 		System.out.println(); */
 	}
