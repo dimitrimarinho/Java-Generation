@@ -16,15 +16,12 @@ public class CategoriaIdade {
 		}
 		else if(idade >= 15 && idade <= 17) {
 			System.out.println("\nO participante encontra-se na categoria Juvenil");
-
 		}			
 		else if(idade >= 18 && idade <= 25) {
 			System.out.println("\nO participante encontra-se na categoria Adulto");
-
 		}
 		else {
-			System.out.println("\nNão há categoria para este participante ou você digitou a idade incorretamente");
+			System.out.println("\nNÃ£o hÃ¡ categoria para este participante ou vocÃª digitou a idade incorretamente");
 		}
-	}
-	
+	}	
 }
