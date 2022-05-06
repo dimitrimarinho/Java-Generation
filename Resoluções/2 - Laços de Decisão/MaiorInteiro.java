@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class MaiorInteiro {
 	
-	/* Faça um programa que receba três inteiros e diga qual deles é o maior. */
+	/* FaÃ§a um programa que receba trÃªs inteiros e diga qual deles Ã© o maior. */
 
 	public static void main(String[] args) {
 		
@@ -11,28 +11,24 @@ public class MaiorInteiro {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		n1 = input.nextInt();
 		if(n1 > maior) {
 			maior = n1;
 		}
-		System.out.println("Digite o segundo número: ");
+		
+		System.out.println("Digite o segundo nÃºmero: ");
 		n2 = input.nextInt();
 		if(n2 > maior) {
 			maior = n2;
 		}
-		System.out.println("Digite o terceiro número: ");
+		
+		System.out.println("Digite o terceiro nÃºmero: ");
 		n3 = input.nextInt();
 		if(n3 > maior) {
 			maior = n3;
 		}
 		
-		System.out.println("\n\nO maior inteiro digitado é: " + maior);
-
-		
-		
-		
-
+		System.out.println("\n\nO maior inteiro digitado Ã©: " + maior);
 	}
-
 }
