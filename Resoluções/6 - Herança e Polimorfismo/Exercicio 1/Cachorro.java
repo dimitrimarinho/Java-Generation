@@ -1,7 +1,7 @@
-package resolucoes;
+package questao1Lista6;
 
 public class Cachorro extends Animal {
-
+	
 	public Cachorro(String nome, int idade) {		
 		super(nome, idade);		
 	}
@@ -15,5 +15,5 @@ public class Cachorro extends Animal {
 		velocidade += 10;
 		System.out.println("Velocidade da corrida: " + velocidade);
 	}
-	
+
 }

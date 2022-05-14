@@ -1,7 +1,7 @@
-package resolucoes;
+package questao1Lista6;
 
 public class Preguica extends Animal {
-
+	
 	public Preguica(String nome, int idade) {
 		super(nome, idade);
 	}
@@ -15,5 +15,5 @@ public class Preguica extends Animal {
 		alturaRefSolo += 3;
 		System.out.println("Altura da preguiça na árvore (referencial solo): " + alturaRefSolo);
 	}
-
+	
 }

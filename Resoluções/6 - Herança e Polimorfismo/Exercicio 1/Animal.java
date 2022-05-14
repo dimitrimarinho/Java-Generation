@@ -1,7 +1,7 @@
-package resolucoes;
+package questao1Lista6;
 
 public class Animal {
-
+	
 	private String nome;
 	private int idade;
 	
@@ -29,5 +29,4 @@ public class Animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-		
 }
